@@ -1,10 +1,16 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='gbn',
-    version='0.4.0',
+    version='0.4.1',
     description='Greenlet BottleNeck profiler.',
     long_description='''
+Greenlet BottleNeck profiler.
+
+Measures time precisely using "greenlet.settrace" to pause/continue counting time on switch from/to original greenlet.
+
+May count wall-clock time too. Also counts step calls and context switches.
+
 Usage::
 
     gbn_attach()
