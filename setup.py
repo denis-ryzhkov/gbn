@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='gbn',
-    version='0.4.2',
+    version='0.4.3',
     description='Greenlet BottleNeck profiler.',
     long_description='''
 Greenlet BottleNeck profiler.
@@ -37,6 +37,12 @@ Usage::
     # OR
     spawn(gbn_report_and_reset, each=60, log=log.info)
 
+See `help(gbn) <https://github.com/denis-ryzhkov/gbn/blob/master/gbn.py#L147>`_ for detailed docs.
+
+Additional tools:
+
+* `gxray <https://github.com/denis-ryzhkov/gbn/blob/master/gxray.py>`_ - Heavy profiler when you don't know where to profile.
+* `gswitched <https://github.com/denis-ryzhkov/gbn/blob/master/gswitched.py>`_ - Checks if greenlet switched.
 ''',
     url='https://github.com/denis-ryzhkov/gbn',
     author='Denis Ryzhkov',

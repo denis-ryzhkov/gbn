@@ -28,8 +28,13 @@ Usage:
     # OR
     spawn(gbn_report_and_reset, each=60, log=log.info)
 
+See help(gbn) for detailed docs.
 
-gbn version 0.4.2
+Additional tools:
+* gxray - Heavy profiler when you don't know where to profile.
+* gswitched - Checks if greenlet switched.
+
+gbn version 0.4.3
 Copyright (C) 2016-2017 by Denis Ryzhkov <denisr@denisr.com>
 MIT License, see http://opensource.org/licenses/MIT
 """
