@@ -29,7 +29,7 @@ Usage:
     spawn(gbn_report_and_reset, each=60, log=log.info)
 
 
-gbn version 0.4.1
+gbn version 0.4.2
 Copyright (C) 2016-2017 by Denis Ryzhkov <denisr@denisr.com>
 MIT License, see http://opensource.org/licenses/MIT
 """

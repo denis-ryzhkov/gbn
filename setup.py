@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='gbn',
-    version='0.4.1',
+    version='0.4.2',
     description='Greenlet BottleNeck profiler.',
     long_description='''
 Greenlet BottleNeck profiler.
@@ -50,4 +50,7 @@ Usage::
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
     py_modules=['gbn'],
+    install_requires=[
+        'greenlet',
+    ]
 )
