@@ -31,7 +31,7 @@ Usage:
     # OR
     spawn(gbn_report_and_reset, each=60, log=log.info)
 
-See [help(gbn)](https://github.com/denis-ryzhkov/gbn/blob/master/gbn.py#L147) for detailed docs.
+See [help(gbn)](https://github.com/denis-ryzhkov/gbn/blob/master/gbn.py#L152) for detailed docs.
 
 Additional tools:
 * [gxray](https://github.com/denis-ryzhkov/gbn/blob/master/gxray.py) - Heavy profiler when you don't know where to profile.

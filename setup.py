@@ -37,7 +37,7 @@ Usage::
     # OR
     spawn(gbn_report_and_reset, each=60, log=log.info)
 
-See `help(gbn) <https://github.com/denis-ryzhkov/gbn/blob/master/gbn.py#L147>`_ for detailed docs.
+See `help(gbn) <https://github.com/denis-ryzhkov/gbn/blob/master/gbn.py#L152>`_ for detailed docs.
 
 Additional tools:
 
